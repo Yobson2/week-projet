@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/network-782707_1280.png);
+    background-size: 100%;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+}
+
+/* au niveau du header */
+header {
+    text-align: center;
+    font-family: Cambria,
+        Cochin, Georgia, Times,
+        'Times New Roman', serif;
+    font-size: xx-large;
+    background-color: aquamarine;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* les paragraphes de ma page */
+p {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* section-presentation */
+
+
+/* section de formation */
+.formation1,
+.formation2,
+.formation4,
+.formation5,
+.formation6,
+.formation7 {
+    display: flex;
+    margin-top: 30px;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 2rem;
+    border-style: groove;
+}
+
+
+
+/* footer */
+.div2-footer {
+    text-align: right;
+}
+
+.div2-footer h3 {
+    font-size: xx-large;
+    margin-right: 300px;
+
+}
+
+ul {
+    display: flex;
+}
+
+h3 #para {
+    margin-left: 50px;
+}
