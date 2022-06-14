@@ -1,0 +1,53 @@
+body,*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.titre{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.titre1{
+width: 250px;
+margin-left: 200px;
+}
+.titre2{
+    width: 250px;
+    margin-left: 10px;
+}
+.titre3{
+    width: 250px;
+  
+}
+.titre4{
+    width: 250px;
+    margin-right: 200px;
+}
+button{
+    position: absolute;
+    margin-left: 50%;
+    width: 250px;
+    height: 30px;
+    border-radius: 0.5rem;
+}
+button:hover{
+    background-color: aquamarine;
+}
+
+/* les autres images */
+.Div2{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 190px;
+    justify-content: space-around;
+    
+}
+.Div2_sous1,.Div2_sous2,.Div2_sous3,.Div2_sous4,.Div2_sous5{
+    margin-left: 50px;
+}

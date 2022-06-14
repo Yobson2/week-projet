@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="nav1">
+           <ul>
+               <li><a href="#">Accueil</a></li>
+               <li><a href="#">A propos de nous</a></li>
+           </ul>
+        </nav>
+    </div>
+        <nav class="nav2">
+            <ul>
+                <li><a href="#" id="con">Connexion</a></li>
+            <li><a href="#" id="insc">Inscription</a></li>
+            </ul>
+            
+        </nav>
+        <div class="formulaires">
+
+        <form action="#" id="inscription" class="form1">
+            <h1>Formulaire d'inscription étudiants</h1>
+            <p class="soustitre">Remplissez soigneusement le formulaire d'inscription</p>
+          
+            <p><label>Nom complet</label></p>
+            <p><input type="text"></p>
+             <p><label>Sexe</label></p>
+             <p><select name="selection" id="selection">
+                <option value="Femme">Femme</option>
+                <option value="Masculin">Masculin</option>
+            </select></p> 
+            <p><label>Adresse</label></p>
+            <p><input type="text"></p>
+             
+             <p><label>ville</label></p>
+            <p><input type="text"></p>
+                
+             <p> <label>Code Postal</label>
+                <p><input type="text"></p>
+              <p><label>E-mail</label></p>
+                <p><input type="mail" placeholder="monmon@exemple.com"></p>
+            <p><label >Numero de téléphone</label></p>
+                    <p><input type="numero" placeholder="00 00 00 00 00"></p> 
+            <p><label>Commentaires supplémentaires</label></p>
+                <p><textarea  cols="50" rows="5"></textarea></p>
+            <p class="exit"><input type="submit" value="Soummettre l'inscription" id="envoyez"></p>
+
+        </form>
+        <form action="#" id="formulaire" class="form2">
+            <div class="croix">
+                <button class="cool_croix" id="button"><img src="logo/icons8-x-48.png"></button>
+            </div>
+            <div class="premiere">
+                <h1 id="texte">Content de vous revoir !</h1>
+                <span id="texte2">Connectez-vous pour accéder à votre compte</span>
+                <button>
+                    <div class="premiere_sous">
+                        <img src="logo/icons8-facebook-48.png"id="logo_faac"><div class="texte">Continuer avec Facebook</div>
+                    </div>
+                </button>
+                <div class="ou">
+                    <p>ou</p>
+                </div>
+            </div>
+            <div class="seconde">
+                <div class="seconde_1"><img src="logo/icons8-gmail-50.png">
+                    <input type="text" placeholder="Adresse e-mail">
+                </div>
+                <div class="seconde_2">
+                    <img src="/logo/icons8-cadenas-50.png" ><input type="text" placeholder="Mot de passe">
+                     <button class="afficher">Afficher</button>
+                </div>
+                <!-- <div class="seconde_3">
+                    <div class="sous1">
+                       <div class="sous1_1">
+                         <input type="checkbox"> Se souvenir de moi
+                       </div>
+                       <div class="sous1_2">
+                           <a href="#">Mot de passe oublié?</a>
+                       </div>
+                    </div> -->
+                
+                    <input type="submit" value="Se connecter" class="sous2">
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
+<script src="code.js"></script>

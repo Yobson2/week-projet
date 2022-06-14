@@ -1,0 +1,59 @@
+[
+   {
+       "page":{
+        "numpage":1,
+        "question1":{
+            "titre":"Le mot clé var permet de déclarer des variables ",
+            "reponse1":"n existe pas en JavaScript",
+            "reponse2":"locales ou globales",
+            "reponse3":"locales uniquement"
+        },
+         "question2":{
+            "titre":"Le DOM",
+            "reponse1":"est un moteur de bases de données",
+            "reponse2":"ne peut pas être manipulé par JavaScript",
+            "reponse3":"décrit la structure du document HTML ou XM"            
+        },
+        "question3":{
+            "titre":"Que renvoie ch1.slice(-3, -1) si ch1=ABCDE ?",
+            "reponse1":"ABCDE",
+            "reponse2":"AB",
+            "reponse3":"CD",
+            "reponse4":"BC"
+        },
+        "question4":{
+            "titre":"Comment trouver la longueur de la variable Nom ?",
+            "reponse1":"width(Nom)",
+            "reponse2":"Nom.length",
+            "reponse3":"Nom.width"
+        },
+        "question5":{
+            "titre":"Que fais T1.pop() sur le tableau T1 ?",
+            "reponse1":"supprime la première valeur",
+            "reponse2":"supprime la dernière valeur",
+            "reponse3":"supprime et renvoie la dernière valeur",
+            "reponse4":"supprime et renvoie la première valeur"
+        },
+        "question6":{
+            "titre":"Si ch1=WXYZ, que retourne ch1.CharAT(3)",
+            "reponse1":"une erreur",
+            "reponse2":"Y",
+            "reponse3":"Z",
+            "reponse4":"true"
+        }
+    
+       }
+   },
+   {
+    "page":{
+     "numpage":1,
+     "question1":"reponse2",
+     "question2":"reponse3",
+     "question3":"reponse3",
+     "question4":"reponse2",
+     "question5":"reponse3",
+     "question6":"reponse1"
+ 
+    }
+}  
+]

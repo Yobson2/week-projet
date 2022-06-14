@@ -1,0 +1,150 @@
+body,*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    position: absolute;
+    width: 710px;
+    height: 500px;
+    border: 1px solid transparent;
+    display: flex;
+    overflow: hidden;
+    border-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cadre1{
+    position: absolute;
+    right: 50%;
+    z-index: 10;
+}
+#image_conct{
+    width: 350px;
+    height: 500px;
+}
+
+
+/* mise en forme des formulaires */
+.cadre2{
+    width: 300px; 
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    transition: transform 2s;
+}
+#connexion {
+    width: 350px;
+    border: 1px solid black;
+    height: 500px;
+    text-align: center;
+    background-color: paleturquoise;
+}
+h3{
+    font-size: xx-large;
+}
+.conct{
+    margin-top: 25px;
+    width: 230px;
+    height: 30px;
+    border-radius: 0.2rem;
+    border: none;
+}
+#valider{
+    margin-top: 40px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    border-radius: 0.3rem;
+    background-color:powderblue;
+}
+#valider:hover, #Envoyer:hover{
+    background-color: azure;
+}
+
+/* formulaire de d'inscription */
+#inscription{
+    width: 350px;
+    border: 1px solid black;
+    height: 500px;
+    text-align: center;
+}
+fieldset{
+    margin-top: 23px;
+    height: 472px;
+    background-color: white;
+} 
+.blocs{
+    margin-top: 50px;
+}
+.cadre3{
+    width: 300px; 
+    position: absolute;
+    left: 50%; 
+    z-index: 0;
+    transition: transform 2s;
+}
+.conct1{
+    margin-top: 20px;
+    width: 230px;
+    height: 30px;
+    border-radius: 0.3rem;
+    
+}
+legend{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     width: 200px;
+     height: 30px;
+     background-color: white;
+}
+#Envoyer{
+  margin-top: 40px;
+  width: 100px;
+  height: 26px;
+  background-color: cornsilk;
+  border-radius: 0.5rem
+}
+.button{
+    z-index: 11;
+    height: 20px;
+    left: 47%;
+    position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 50px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #D9DADC;
+  border-radius: 50px;
+  box-shadow: inset -20px 0 0 0 #fff;
+}
+.button::after{
+    content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: transparent;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+.button:checked{
+    box-shadow: inset 20px 0 0 0 #4ed164;
+    border-color: #4ed164;
+}
+.button:checked::after{
+    left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+
+/* les evenements */
+
+.sortir{
+    transform: translate(-117%);
+    z-index: 1;
+}
+.entrer{
+    transform: translate(0%);
+    z-index: 2;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <h3>Tableau de jeu</h3>
+    <div class="grand">
+        <div class="questions" id="questio">
+            <div class="bloc" id="q1">
+                <h4>Le mot clé "var" permet de déclarer des variables </h4>
+                <p><input type="checkbox">n'existe pas en JavaScript</p>
+                <p><input type="checkbox">locales ou globales</p> //bonne reponse
+                <p><input type="checkbox">locales uniquement</p>
+            </div>
+            <div class="bloc" id="q2">
+               <h4>Le DOM</h4>
+               <p><input type="checkbox">est un moteur de bases de données</p>
+               <p><input type="checkbox">ne peut pas être manipulé par JavaScript</p>
+               <p><input type="checkbox">décrit la structure du document HTML ou XML</p> //bonne
+               <p><input type="checkbox"></p>
+             </div>
+             <div class="bloc" id="q3">
+                <h4>Que renvoie ch1.slice(-3, -1) si ch1="ABCDE" ?</h4>
+                <p><input type="checkbox">ABCDE</p>
+                <p><input type="checkbox">AB</p>
+                <p><input type="checkbox">CD</p> //bonne
+                <p><input type="checkbox">BC</p>
+              </div>
+              <div class="bloc" id="q4">
+                <h4>Comment trouver la longueur de la variable Nom ?</h4>
+                <p><input type="checkbox">width(Nom)</p>
+                <p><input type="checkbox">Nom.length</p>  //bonne
+                <p><input type="checkbox">Nom.width</p>
+              </div>
+              <div class="bloc" id="q5">
+                <h4>Que fais T1.pop() sur le tableau T1 ?</h4>
+                <p><input type="checkbox">supprime la première valeur</p>
+                <p><input type="checkbox" >supprime la dernière valeur</p>
+                <p><input type="checkbox">supprime et renvoie la dernière valeur</p> //bonne
+                <p><input type="checkbox">supprime et renvoie la première valeur</p>
+              </div>
+              <div class="bloc" id="q6">
+                <h4>Si ch1="WXYZ", que retourne ch1.CharAT(3)</h4>
+                <p><input type="checkbox">une erreur</p>  //bonne
+                <p><input type="checkbox">Y</p>
+                <p><input type="checkbox">Z</p>
+                <p><input type="checkbox">true</p>
+              </div>
+        </div>
+       
+        <div class="score"></div>
+       
+        <table>
+            <tr>
+                <th>Score</th>
+                <th>Temps</th>
+            </tr>
+            <tr>
+                <td><input type="number"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+    <p id="textenvoi"><input type="submit" value="valider" id="valider" class="valider"></p>
+</body>
+</html>
+<script src="source.js"></script>

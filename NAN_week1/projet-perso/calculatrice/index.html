@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="calculator">
+        <table class="table">
+            <tr>
+                <td colspan="6" ><input  class="input" id="input"  onclick="afficher()"></td>
+            </tr>
+            <tr>
+                <td><button>x^y</button></td>
+                <td><button onclick="puissance()">x^2</button></td>
+                <td><button>|x|</button></td>
+                <td><button>Ln</button></td>
+                <td><button onclick="log()">Log</button></td>
+                <td><button>Sin</button></td>
+            </tr>
+        </tr>
+        <tr>
+            <td><button onclick="afficher('Cos()')">Cos</button></td>
+            <td><button>Tan</button></td>
+            <td><button>√x</button></td>
+            <td><button onclick="expo() ">Expo</button></td>
+            <td><button id="allumer">on</button></td>
+            <td><button>2nd</button></td>
+        </tr>
+    </table>
+        <table class="numerique">
+            <tr>
+                <td><button onclick="afficher('1')">1</button></td>
+                <td><button onclick="afficher('2')">2</button></td>
+                <td><button onclick="afficher('3')">3</button></td>
+                <td></td>
+                <td><button id="espace" onclick="effacer()">DEL</button></td>
+                <td><button id="arret">AC</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="afficher('4')">4</button></td>
+                <td><button onclick="afficher('5')">5</button></td>
+                <td><button onclick="afficher('5')">6</button></td>
+                <td></td>
+                <td><button id="espace" onclick="afficher('*')">x</button></td>
+                <td><button onclick="afficher('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="afficher('7')">7</button></td>
+                <td><button onclick="afficher('8')">8</button></td>
+                <td><button onclick="afficher('9')">9</button></td>
+                <td></td>
+                <td><button id="espace" onclick="afficher('+')">+</button></td>
+                <td><button onclick="afficher('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="afficher('0')">0</button></td>
+                <td><button onclick="afficher('.')">.</button></td>
+                <td><button onclick="afficher('(')">(</button></td>
+                <td></td>
+                <td><button id="espace" onclick="afficher(')')">)</button></td>
+                <td><button onclick="calculer()">=</button></td>
+            </tr>
+            
+        </table>
+    </div>
+</body>
+</html>
+<script src="code.js"></script>

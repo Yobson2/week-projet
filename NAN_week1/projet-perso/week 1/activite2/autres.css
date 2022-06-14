@@ -1,0 +1,50 @@
+body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* formulaire de connexion */
+#formulaire{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 0.3rem;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.barre{
+    width: 400px;
+    height: 30px;
+    border-radius: 0.4rem;
+    margin-top: 20px;
+}
+label{
+    margin-top: 10px;
+}
+
+#connect{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.3rem;
+}
+#connect :hover{
+    background-color: blue;
+}
+
+/* formulaire inscription */
+#enregistrer{
+    width: 100px;
+    height: 30px;
+    border-radius: 0.3rem;
+    margin-top: 30px;
+}
+#enregistrer :hover{
+background-color: aqua;
+}
