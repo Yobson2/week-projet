@@ -1,0 +1,33 @@
+[
+  {
+      "level":1,
+      "time":10,
+      "word_length":3,
+      "count_found":5
+  },
+  {
+    "level":2,
+    "time":10,
+    "word_length":4,
+    "count_found":5
+  },
+  {
+    "level":3,
+    "time":10,
+    "word_length":5,
+    "count_found":5
+},
+{
+    "level":4,
+    "time":10,
+    "word_length":6,
+    "count_found":5
+},
+{
+    "level":5,
+    "time":10,
+    "word_length":7,
+    "count_found":5
+}
+
+]
