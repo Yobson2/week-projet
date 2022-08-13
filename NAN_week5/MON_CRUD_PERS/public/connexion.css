@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+fieldset{
+    width: 500px;
+    background-color: gainsboro;
+    border: 0.2px solid black;
+}
+legend{
+    background-color: rgb(100, 114, 115);
+    border-radius: 8rem;
+}
+img{
+    width: 150px;
+    border-radius: 10rem;
+}
+label{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: large;
+   margin-right: 310px;
+}
+.prenom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-right: 300px;
+}
+.element{
+    height: 360px;
+}
+input[ type="text"]{
+    width: 350px;
+    border: 0.3px solid black;
+    height: 40px;
+}
+input[ type="submit"]{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: large;
+ width: 350px;
+ height: 40px;
+ margin: 19px;
+}
+input[ type="submit"]:hover{
+    background-color: #333;
+    color: white;
+}
